@@ -1,0 +1,10 @@
+{
+    "name": "mystic-auto-buff",
+    "author": "alby407",
+    "description": "Auto buff with Thrall Augmentation.",
+    "version": "101.2",
+    "servers": [
+        "https://raw.githubusercontent.com/alby407/mystic-auto-buff/master/"
+    ],
+    "disableAutoUpdate": false
+}
