@@ -1,8 +1,11 @@
 {
-    "files": {
-        "index.js": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "module.json": "f66f063f3b2ac820a7ac88dbee92bf4fc4715e914d60b35f71d4bebd4e7e8a7c"
-    },
-    "defs": {
-    }
+  "files": {
+    "index.js": "142E66453DA6038A3CDF04431CCA2741279268D24A8FB569336FCF3590433C5C",
+    "module.json": "911334238f5c5e83b30be7a501fd27aff5abcb983a2128709c503877f6bba557"
+  },
+  "defs": {
+    "S_SPAWN_ME": 3,
+    "C_PLAYER_LOCATION": 5,
+    "C_START_SKILL": 7
+  }
 }

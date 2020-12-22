@@ -4,7 +4,7 @@
     "description": "Auto buff with Thrall Augmentation.",
     "version": "101.2",
     "servers": [
-        "https://raw.githubusercontent.com/alby407/mystic-auto-buff/master/"
+        "https://raw.githubusercontent.com/alby407/mystic-auto-buff/main/"
     ],
     "disableAutoUpdate": false
 }
