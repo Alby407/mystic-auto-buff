@@ -1,8 +1,8 @@
 {
     "name": "mystic-auto-buff",
     "author": "alby407",
-    "description": "Auto buff with Thrall Augmentation.",
-    "version": "101.2",
+    "description": "Auto buff with Thrall Augmentation, and both Auras.",
+    "version": "103.1",
     "servers": [
         "https://raw.githubusercontent.com/alby407/mystic-auto-buff/main/"
     ],

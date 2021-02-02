@@ -1,7 +1,7 @@
 {
     "files": {
-        "index.js": "d047d6ee88f386f9e76605ef7424ba1c3df2de7c2cab5f265a66fb80e8cafdbb",
-        "module.json": "911334238f5c5e83b30be7a501fd27aff5abcb983a2128709c503877f6bba557"
+        "index.js": "cd7554d31ffecb3234f79dafc463368609b83b0ea0f3b42553f233035a5de42e",
+        "module.json": "1fe2b22ea8517b1000ed7217c39d0092b726a65d6533f140bcc4b9c60b5b7a6b"
     },
     "defs": {
         "S_SPAWN_ME": 3,
