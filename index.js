@@ -35,10 +35,12 @@ function create_skill(skill_id, player_location) {
  * @param player_location The current player location as def `C_PLAYER_LOCATION`.
  * @param delay_ms The delay in ms after which the buff should be activated.
  */
-function buff(mod, player_location, delay_ms, skill_id) {
+function buff(mod, player_location, delay_ms) {
     setTimeout(
         () => {
-            mod.send('C_START_SKILL', 7, create_skill(skill_id, player_location));
+            mod.send('C_START_SKILL', 7, create_skill(450100, player_location));
+            mod.send('C_START_SKILL', 7, create_skill(130400, player_location));
+            mod.send('C_START_SKILL', 7, create_skill(160100, player_location));
         }, delay_ms);
 }
 
@@ -51,16 +53,12 @@ module.exports = function MysticAutoBuff(mod) {
     });
 
     mod.hook('C_REVIVE_NOW', 2, (event) => {
-        buff(mod, player_location, 1000, 450100);
-        buff(mod, player_location, 2000, 130400);
-        buff(mod, player_location, 5000, 160100);
+        buff(mod, player_location, 1000);
     });
 
     mod.hook('S_SPAWN_ME', 3, (event) => {
         player_location.loc = event.loc;
         player_location.w = event.w;
-        buff(mod, player_location, 1000, 450100);
-        buff(mod, player_location, 2000, 130400);
-        buff(mod, player_location, 5000, 160100);
+        buff(mod, player_location, 1000);
     });
 }
