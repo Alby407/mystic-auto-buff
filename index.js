@@ -62,6 +62,5 @@ module.exports = function MysticAutoBuff(mod) {
         buff(mod, player_location, 1000, 450100);
         buff(mod, player_location, 2000, 130400);
         buff(mod, player_location, 3000, 160100);
-        
     });
 }
