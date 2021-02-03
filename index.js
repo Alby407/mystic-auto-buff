@@ -39,8 +39,6 @@ function buff(mod, player_location, delay_ms, skill_id) {
     setTimeout(
         () => {
             mod.send('C_START_SKILL', 7, create_skill(skill_id, player_location));
-            mod.send('C_START_SKILL', 7, create_skill(skill_id, player_location));
-            mod.send('C_START_SKILL', 7, create_skill(skill_id, player_location));
         }, delay_ms);
 }
 
