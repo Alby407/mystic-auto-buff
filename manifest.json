@@ -1,10 +1,9 @@
 {
     "files": {
-        "index.js": "9396739c487e038fc457cd0120c3c7172f812423ec5938b846b23f15394da076",
+        "index.js": "d5a3e61322535d39f3786fbc464038898e0e5bd5f1ef1c0a81d8bcd22880b9fc",
         "module.json": "1fe2b22ea8517b1000ed7217c39d0092b726a65d6533f140bcc4b9c60b5b7a6b"
     },
     "defs": {
-        "S_SPAWN_ME": 3,
         "C_PLAYER_LOCATION": 5,
         "C_START_SKILL": 7,
         "C_REVIVE_NOW": 2
