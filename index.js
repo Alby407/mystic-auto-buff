@@ -45,10 +45,10 @@ function buff(mod, player_location, delay_ms, skill_id) {
 module.exports = function MysticAutoBuff(mod) {
     let player_location = {};
 
-//    mod.hook('C_PLAYER_LOCATION', 5, (event) => {
-//        player_location.loc = event.loc;
-//        player_location.w = event.w;
-//    });
+    mod.hook('C_PLAYER_LOCATION', 5, (event) => {
+        player_location.loc = event.loc;
+        player_location.w = event.w;
+    });
 
     mod.hook('C_REVIVE_NOW', 2, (event) => {
         buff(mod, player_location, 1000, 450100);
@@ -56,11 +56,11 @@ module.exports = function MysticAutoBuff(mod) {
         buff(mod, player_location, 4000, 160100);
     });
 
-    mod.hook('S_SPAWN_ME', 3, (event) => {
-        player_location.loc = event.loc;
-        player_location.w = event.w;
-        buff(mod, player_location, 1000, 450100);
-        buff(mod, player_location, 2000, 130400);
-        buff(mod, player_location, 4000, 160100);
-    });
+//    mod.hook('S_SPAWN_ME', 3, (event) => {
+//        player_location.loc = event.loc;
+//        player_location.w = event.w;
+//        buff(mod, player_location, 1000, 450100);
+//        buff(mod, player_location, 2000, 130400);
+//        buff(mod, player_location, 4000, 160100);
+//    });
 }
