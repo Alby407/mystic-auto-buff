@@ -56,11 +56,11 @@ module.exports = function MysticAutoBuff(mod) {
         buff(mod, player_location, 4000, 160100);
     });
 
-//    mod.hook('S_SPAWN_ME', 3, (event) => {
-//        player_location.loc = event.loc;
-//        player_location.w = event.w;
-//        buff(mod, player_location, 1000, 450100);
-//        buff(mod, player_location, 2000, 130400);
-//        buff(mod, player_location, 4000, 160100);
-//    });
+    mod.hook('S_SPAWN_ME', 3, (event) => {
+        player_location.loc = event.loc;
+        player_location.w = event.w;
+        buff(mod, player_location, 1000, 450100);
+        buff(mod, player_location, 2000, 130400);
+        buff(mod, player_location, 4000, 160100);
+    });
 }
