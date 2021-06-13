@@ -49,7 +49,7 @@ module.exports = function MysticAutoBuff(mod) {
 	let job;
 	let model;
 	
-	script.hook('S_LOGIN', 14, (packet) => {
+    mod.hook('S_LOGIN', 14, (packet) => {
 		model = packet.templateId;
 		job = (model - 10101) % 100;
 	})
